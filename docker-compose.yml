@@ -1,0 +1,24 @@
+version: '2'
+
+services:
+  application:
+    build: application
+    image: pges-application-image
+    container_name: pges-application
+    volumes:
+      - ./application:/var/opt/application
+    environment:
+      MYSQL_DATABASE: pges
+      MYSQL_USER: pges
+      MYSQL_PASSWORD: pges
+
+  database:
+    image: mysql:5.7
+    container_name: pges-database
+    volumes:
+      - ./docker/database/data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: pg3s
+      MYSQL_DATABASE: pges
+      MYSQL_USER: pges
+      MYSQL_PASSWORD: pges

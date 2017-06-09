@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "17073f7c7c52f7626712e86cff724488",
+    "packages": [
+        {
+            "name": "maxakawizard/xls-writer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MAXakaWIZARD/xls-writer.git",
+                "reference": "b5a9a8308df0c441a303b9a7ae9458a0e9da6ab0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MAXakaWIZARD/xls-writer/zipball/b5a9a8308df0c441a303b9a7ae9458a0e9da6ab0",
+                "reference": "b5a9a8308df0c441a303b9a7ae9458a0e9da6ab0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8",
+                "satooshi/php-coveralls": "~1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Xls\\": "src/",
+                    "Test\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Max Grigorian",
+                    "email": "maxakawizard@gmail.com",
+                    "homepage": "https://github.com/MAXakaWIZARD",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Library for generating *.xls workbooks",
+            "time": "2016-05-10 18:23:52"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "maxakawizard/xls-writer": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

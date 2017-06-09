@@ -1,0 +1,52 @@
+[
+    {
+        "name": "maxakawizard/xls-writer",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/MAXakaWIZARD/xls-writer.git",
+            "reference": "b5a9a8308df0c441a303b9a7ae9458a0e9da6ab0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/MAXakaWIZARD/xls-writer/zipball/b5a9a8308df0c441a303b9a7ae9458a0e9da6ab0",
+            "reference": "b5a9a8308df0c441a303b9a7ae9458a0e9da6ab0",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.8",
+            "satooshi/php-coveralls": "~1.0"
+        },
+        "time": "2016-05-10T18:23:52+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Xls\\": "src/",
+                "Test\\": "tests/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Max Grigorian",
+                "email": "maxakawizard@gmail.com",
+                "homepage": "https://github.com/MAXakaWIZARD",
+                "role": "Developer"
+            }
+        ],
+        "description": "Library for generating *.xls workbooks"
+    }
+]

@@ -1,0 +1,13 @@
+{
+  "name": "pges/export-fanwall",
+  "license": "proprietary",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Possible\\": "src/"
+    }
+  },
+  "require": {
+    "maxakawizard/xls-writer": "dev-master"
+  }
+}
